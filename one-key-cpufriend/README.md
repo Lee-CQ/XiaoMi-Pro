@@ -1,6 +1,6 @@
 # Modify macOS CPU Performance
 
-[English](README.md) | [中文](README_CN.md)
+English | [中文](README_CN.md)
 
 ## Instruction
 
@@ -15,6 +15,7 @@ By using this script, no file under the System folder will be edited. If you are
 
 ## Before install
 
+- Read [CPUFriend WARNING](https://github.com/acidanthera/CPUFriend/blob/master/Instructions.md#warning)
 - Good network
 - Make sure `IOPlatformPluginFamily.kext` untouched
 - Make sure [Lilu](https://github.com/acidanthera/Lilu) is working
@@ -26,7 +27,7 @@ By using this script, no file under the System folder will be edited. If you are
 - Run the following command in Terminal:
 
 ```bash
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/XiaoMi-Pro/master/one-key-cpufriend/one-key-cpufriend.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/XiaoMi-Pro-Hackintosh/master/one-key-cpufriend/one-key-cpufriend.sh)"
 ```
 
 - Copy `CPUFriend.kext` and `CPUFriendDataProvider.kext` from desktop to `/CLOVER/kexts/Other/` and restart.

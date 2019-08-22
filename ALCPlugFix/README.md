@@ -1,6 +1,6 @@
 # ALC Plug Fix
 
-[English](README.md) | [中文](README_CN.md)
+English | [中文](README_CN.md)
 
 ## Introduction
 
@@ -14,7 +14,7 @@
 - Run the following command in Terminal:
 
 ```bash
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/XiaoMi-Pro/master/ALCPlugFix/one-key-alcplugfix.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/daliansky/XiaoMi-Pro-Hackintosh/master/ALCPlugFix/one-key-alcplugfix.sh)"
 ```
 
 - When it's done, restart your computer. The installation now completes.
